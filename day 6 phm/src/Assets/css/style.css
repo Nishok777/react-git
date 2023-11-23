@@ -1,0 +1,40 @@
+body
+{background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    text-align: center;
+}
+.aa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+td{
+    background-color:yellow;
+}
+.a1
+{
+    background-color: whitesmoke;
+    border: 2px solid aqua;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.028),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.04),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.06),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.072),
+  100px 100px 80px rgba(0, 0, 0, 0.1)
+;
+}
+.a1:hover
+{
+    transform: translate(10px);
+}
+h1
+{
+    color: gold ;
+    margin-top: 5%;
+}
